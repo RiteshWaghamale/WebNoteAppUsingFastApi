@@ -11,7 +11,6 @@ app = FastAPI()
 
 templates = Jinja2Templates(directory="templates")
 
-conn = MongoClient("mongodb+srv://riteshwaghamale9112:2CZFAvkbcQHhfQuR@cluster0.iepry2b.mongodb.net")
 
 
 # @app.get("/", response_class=HTMLResponse)

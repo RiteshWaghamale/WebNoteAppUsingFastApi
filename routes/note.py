@@ -75,7 +75,7 @@ async def create_item(request: Request):
     form = await request.form()
 
     data = {
-    "note": form.get("title"),   # FIXED NAME
+    "note": form.get("title"),   
     "desc": form.get("desc"),
     "important": form.get("important") == "on"
 }
